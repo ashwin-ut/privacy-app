@@ -1,4 +1,4 @@
-import SignIn from "./Pages/SuccessPage"
+import SignIn from "./Pages/OtpPage"
 
 export default function App() {
   return (
