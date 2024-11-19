@@ -32,7 +32,7 @@ const SignInPage = () => {
 
                         <button
                             type="submit"
-                            className="w-40 px-4 py-2 bg-indigo-500 text-white font-medium rounded-full hover:bg-indigo-700 transition"
+                            className="w-40 px-4 py-2 bg-[#6B77B3] text-white font-medium rounded-full hover:bg-[#0048b2] transition"
                         >
                             Sign In
                         </button>
