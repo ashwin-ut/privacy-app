@@ -5,14 +5,14 @@ const SignInPage = () => {
         <div className="flex h-screen">
             {/* Left Section */}
             <div className="flex-1 flex items-center justify-center bg-white">
-                <div className="max-w-md w-full px-8 text-center">
-                    <h2 className="text-3xl font-bold mb-3 text-gray-800">Sign In</h2>
+                <div className="max-w-md w-full px-8">
+                    <h2 className="text-3xl font-bold mb-3 text-[#0048b2]">Sign In</h2>
                     <p className="text-gray-400 mb-6 text-sm">Sign in to stay connected.</p>
                     <form>
                         <div className="mb-4 text-left">
                             <label
                                 htmlFor="email"
-                                className="block text-sm font-medium text-gray-700  px-4 "
+                                className="block text-sm font-medium text-[#0048b2] px-2"
                             >
                                 Email
                             </label>
@@ -20,7 +20,7 @@ const SignInPage = () => {
                                 type="email"
                                 id="email"
                                 required
-                                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                                className="mt-1 block w-80 px-4 py-2 border border-gray-300 rounded-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                                 placeholder="you@example.com"
                             />
                         </div>

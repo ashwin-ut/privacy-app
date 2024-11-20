@@ -1,7 +1,13 @@
-import SignIn from "./Pages/OtpPage"
+import OtpPage from "./Pages/OtpPage"
+import SignIn from "./Pages/SignIn"
+import SuccessPage from "./Pages/SuccessPage"
 
 export default function App() {
   return (
-    <SignIn />
+    <>
+      <SignIn />
+      <SuccessPage />
+      <OtpPage />
+    </>
   )
 }

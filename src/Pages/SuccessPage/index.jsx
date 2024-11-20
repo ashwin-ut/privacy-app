@@ -4,6 +4,15 @@ import { FaRegCheckCircle } from "react-icons/fa";
 const SignInPage = () => {
     return (
         <div className="flex h-screen">
+            {/* Right Section with Image */}
+            <div className="flex-1">
+                <div
+                    className="h-full w-full bg-cover bg-center"
+                    style={{
+                        backgroundImage: `url(${image})`,
+                    }}
+                ></div>
+            </div>
             {/* Left Section */}
             <div className="flex-1 flex items-center justify-center bg-white">
                 <div className="max-w-md w-full px-8 text-center flex flex-col justify-center items-center">
@@ -20,15 +29,7 @@ const SignInPage = () => {
 
             </div>
 
-            {/* Right Section with Image */}
-            <div className="flex-1">
-                <div
-                    className="h-full w-full bg-cover bg-center"
-                    style={{
-                        backgroundImage: `url(${image})`,
-                    }}
-                ></div>
-            </div>
+
         </div>
     );
 };
