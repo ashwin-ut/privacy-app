@@ -27,7 +27,7 @@ const SignInPage = () => {
             {/* Left Section */}
             <div className="flex-1 flex items-center justify-center bg-white">
                 <div className="max-w-md w-full px-8 text-center">
-                    <h2 className="text-2xl font-bold mb-7 text-[#0048b2]">Enter the OTP</h2>
+                    <h2 className="text-2xl font-bold mb-5 text-[#0048b2]">Enter the OTP</h2>
                     <form>
                         <div className="mb-4 flex justify-center">
                             <input
@@ -57,7 +57,7 @@ const SignInPage = () => {
             </div>
 
             {/* Right Section with Image */}
-            <div className="flex-1">
+            <div className="hidden md:flex flex-1">
                 <div
                     className="h-full w-full bg-cover bg-center"
                     style={{

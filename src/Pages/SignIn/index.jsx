@@ -42,7 +42,7 @@ const SignInPage = () => {
             </div>
 
             {/* Right Section with Image */}
-            <div className="flex-1">
+            <div className="hidden md:flex flex-1">
                 <div
                     className="h-full w-full bg-cover bg-center"
                     style={{
